@@ -149,11 +149,12 @@ class FastMCP:
         params = message.get("params", {})
 
         if method == "initialize":
+            protocol_version = params.get("protocolVersion", "2024-11-05")
             return {
                 "jsonrpc": "2.0",
                 "id": msg_id,
                 "result": {
-                    "protocolVersion": "2024-11-05",
+                    "protocolVersion": protocol_version,
                     "serverInfo": {
                         "name": self.name,
                         "version": self.version

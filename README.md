@@ -210,3 +210,17 @@ Test Results:
 This project forks and significantly extends the foundational Remotion templates and scripts created by **Noam Dorr** under the MIT License.
 
 PixelMotion MCP extensions copyright (c) 2026. Distributed under the MIT License. See `LICENSE` for details.
+
+## Additional Remotion motion templates
+
+Three independently authored templates are included in `remotion_templates/`:
+
+- `AnimatedGradientText.tsx` for a deterministic text-gradient sweep.
+- `DrawPath.tsx` for SVG path drawing with a traveling endpoint marker.
+- `SpotlightCard.tsx` for a subtle product-feature card reveal.
+
+They use Remotion frame hooks and React, and can be imported into a composition after copying the files into your Remotion project's source tree. For example: `import { SpotlightCard } from "./SpotlightCard";`. See [UPSTREAM_NOTICES.md](UPSTREAM_NOTICES.md) for the upstream license review and provenance notes; Remotion itself is under a custom license, not MIT.
+
+## Railway-hosted remote MCP (Claude)
+
+This repo includes a Dockerfile and `railway.toml` for a Railway deployment. The ASGI app exposes stateless MCP Streamable HTTP at `/mcp` and a health check at `/health`. For a Railway deployment, configure `PIXELMOTION_API_TOKEN` as a Railway secret variable before starting: protected MCP/API calls require `Authorization: Bearer <token>`. Full deployment and Claude connector steps are in [RAILWAY_CLAUDE_SETUP.md](RAILWAY_CLAUDE_SETUP.md). Review Railway usage pricing before deployment.

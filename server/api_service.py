@@ -7,12 +7,13 @@ cleanly with the FastMCP server, rendering engine, and QA pipeline.
 import os
 import json
 import time
+import hmac
 from pathlib import Path
 from typing import Dict, Any, List, Optional
-from fastapi import FastAPI, UploadFile, File, Form, HTTPException, BackgroundTasks
+from fastapi import FastAPI, UploadFile, File, Form, HTTPException, BackgroundTasks, Request
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse, FileResponse
+from fastapi.responses import JSONResponse, FileResponse, Response
 
 from pixelmotion.server.core.config import (
     BASE_DIR,
@@ -24,6 +25,9 @@ from pixelmotion.server.core.models import Project
 
 
 def create_api_app(mcp_instance=None) -> FastAPI:
+    api_token = os.environ.get("PIXELMOTION_API_TOKEN", "")
+    if os.environ.get("RAILWAY_ENVIRONMENT") and not api_token:
+        raise RuntimeError("PIXELMOTION_API_TOKEN must be set on Railway before starting PixelMotion.")
     app = FastAPI(
         title="PixelMotion MCP Backend",
         version="1.0.0",
@@ -43,6 +47,42 @@ def create_api_app(mcp_instance=None) -> FastAPI:
         mcp_server = mcp
     else:
         mcp_server = mcp_instance
+
+    @app.middleware("http")
+    async def protect_remote_api(request: Request, call_next):
+        if request.url.path == "/mcp" or request.url.path.startswith("/api/"):
+            if api_token:
+                supplied = request.headers.get("authorization", "")
+                if not hmac.compare_digest(supplied, f"Bearer {api_token}"):
+                    return JSONResponse(
+                        status_code=401,
+                        content={"error": "Unauthorized"},
+                        headers={"WWW-Authenticate": "Bearer"},
+                    )
+        return await call_next(request)
+
+    @app.post("/mcp")
+    async def streamable_http_mcp(request: Request):
+        """Stateless MCP Streamable HTTP endpoint for remote MCP clients."""
+        try:
+            message = await request.json()
+        except Exception:
+            raise HTTPException(status_code=400, detail="Expected a JSON-RPC message.")
+        if not isinstance(message, dict):
+            raise HTTPException(status_code=400, detail="Expected a single JSON-RPC object.")
+        response = await mcp_server.handle_jsonrpc_message(message)
+        if response is None:
+            return Response(status_code=202)
+        protocol_version = (
+            response.get("result", {}).get("protocolVersion")
+            or request.headers.get("MCP-Protocol-Version")
+            or "2024-11-05"
+        )
+        return JSONResponse(content=response, headers={"MCP-Protocol-Version": protocol_version})
+
+    @app.get("/health")
+    async def health_check():
+        return {"status": "ok", "service": "pixelmotion-mcp"}
 
     # 1. MCP Protocol Endpoints
     @app.get("/api/mcp/tools")
@@ -137,3 +177,9 @@ def create_api_app(mcp_instance=None) -> FastAPI:
         return {"status": "ok", "service": "PixelMotion MCP API"}
 
     return app
+
+
+if __name__ != "__main__":
+    # ASGI entry point used by Railway and other HTTP hosts.
+    from pixelmotion.server.mcp_server import mcp as _mcp
+    app = create_api_app(_mcp)
