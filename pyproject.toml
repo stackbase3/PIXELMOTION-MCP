@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pixelmotion-mcp"
+version = "1.0.0"
+description = "Advanced AI-Powered SaaS Motion Graphics & Product Tutorial Engine"
+readme = "README.md"
+authors = [
+  { name = "PixelMotion Architecture Team" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+  "pydantic>=1.10.0,<3.0.0",
+  "fastapi>=0.92.0",
+  "uvicorn>=0.17.0",
+  "opencv-python>=4.8.0",
+  "pillow>=10.0.0",
+  "scipy>=1.10.0",
+  "numpy>=1.24.0",
+  "selenium>=4.8.0"
+]
+
+[project.optional-dependencies]
+audio = [
+  "librosa>=0.10.0",
+  "soundfile>=0.12.0"
+]
+dev = [
+  "pytest>=7.0.0"
+]
+
+[project.scripts]
+pixelmotion = "pixelmotion.server.mcp_server:main"

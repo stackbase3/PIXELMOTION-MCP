@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PixelMotion Studio - Advanced SaaS Motion Graphics Engine</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">PIXELMOTION</span>
+          <span class="brand-badge">MCP CORE</span>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <button class="nav-item active" data-tab="dashboard">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+          Dashboard
+        </button>
+        <button class="nav-item" data-tab="reference">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+          Reference & Reconstruction
+        </button>
+        <button class="nav-item" data-tab="motion-director">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+          AI Motion Director
+        </button>
+        <button class="nav-item" data-tab="spatial-studio">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+          3D Spatial Studio
+        </button>
+        <button class="nav-item" data-tab="timeline">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          Motion Timeline
+        </button>
+        <button class="nav-item" data-tab="qa">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+          Visual QA Scorecard
+        </button>
+        <button class="nav-item" data-tab="export">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          Export & Packaging
+        </button>
+      </nav>
+
+      <div class="mcp-status-box">
+        <div class="status-indicator online"></div>
+        <div class="status-text">
+          <span class="status-title">FastMCP Server</span>
+          <span class="status-detail">Active (24 Tools Connected)</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Workspace -->
+    <main class="main-content">
+      <!-- Header Bar -->
+      <header class="topbar">
+        <div class="project-selector">
+          <span class="project-label">PROJECT</span>
+          <select id="project-dropdown" class="select-input">
+            <option value="trading_journal_demo">Trading Journal (Flagship Production)</option>
+          </select>
+        </div>
+        <div class="topbar-actions">
+          <span class="badge badge-accent">1920x1080 @ 30fps</span>
+          <button id="btn-quick-plan" class="btn btn-secondary">Direct Motion</button>
+          <button id="btn-render-preview" class="btn btn-primary">Render Preview</button>
+        </div>
+      </header>
+
+      <div class="content-body">
+        <!-- 1. DASHBOARD TAB -->
+        <section id="tab-dashboard" class="tab-panel active">
+          <div class="panel-header">
+            <h2>Production Overview</h2>
+            <p>AI-Directed SaaS Motion Graphics & Film Pipeline</p>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-card">
+              <span class="stat-label">Active Composition</span>
+              <span id="stat-composition" class="stat-value">Dimensional Reveal</span>
+              <span class="stat-sub">3D Spatial UI + 2D Walkthrough</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-label">Production Duration</span>
+              <span id="stat-duration" class="stat-value">30.0s</span>
+              <span class="stat-sub">900 Frames @ 30 FPS</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-label">Soundtrack Rhythm</span>
+              <span id="stat-bpm" class="stat-value">120 BPM</span>
+              <span class="stat-sub">Snare-Locked Scene Cuts</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-label">Visual Fidelity Score</span>
+              <span id="stat-fidelity" class="stat-value text-success">100%</span>
+              <span class="stat-sub">Zero Artifacts Detected</span>
+            </div>
+          </div>
+
+          <div class="dashboard-grid">
+            <div class="card card-storyboard">
+              <div class="card-header">
+                <h3>Production Storyboard</h3>
+                <span class="badge">6 Scenes Scheduled</span>
+              </div>
+              <div id="storyboard-list" class="storyboard-tracks">
+                <!-- Rendered dynamically -->
+              </div>
+            </div>
+
+            <div class="card card-render-monitor">
+              <div class="card-header">
+                <h3>Render Job Monitor</h3>
+                <span id="render-status-pill" class="badge badge-success">Ready</span>
+              </div>
+              <div class="render-viewport-preview">
+                <div id="preview-container" class="preview-box">
+                  <div class="preview-placeholder">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#64748B" stroke-width="1.5"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                    <span>Click "Render Preview" to compile frames</span>
+                  </div>
+                </div>
+              </div>
+              <div class="render-progress-bar">
+                <div id="render-progress-fill" class="progress-fill" style="width: 0%;"></div>
+              </div>
+              <div class="render-stats-row">
+                <span id="lbl-render-frame">Frame: 0 / 0</span>
+                <span id="lbl-render-percent">0%</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2. REFERENCE & RECONSTRUCTION TAB -->
+        <section id="tab-reference" class="tab-panel">
+          <div class="panel-header">
+            <h2>Reference Ingestion & UI Reconstruction</h2>
+            <p>Strict interface preservation via 4-tier visual fidelity priority.</p>
+          </div>
+          <div class="split-view">
+            <div class="card">
+              <h3>Locked Reference Layer</h3>
+              <div class="image-preview-frame">
+                <img id="ref-img-display" src="" alt="Reference Screenshot" />
+              </div>
+              <div class="card-footer">
+                <span id="ref-meta-dims">1920 x 1080 px</span>
+                <button id="btn-re-detect" class="btn btn-secondary btn-sm">Detect Regions</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3>Detected Spatial Panels & Crops</h3>
+              <div id="regions-detected-list" class="regions-grid">
+                <!-- Populated dynamically -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 3. AI MOTION DIRECTOR TAB -->
+        <section id="tab-motion-director" class="tab-panel">
+          <div class="panel-header">
+            <h2>AI Motion Director</h2>
+            <p>Directs camera language, narrative pacing, and purposeful 3D compositions.</p>
+          </div>
+          <div class="form-grid">
+            <div class="form-group">
+              <label>Product Name</label>
+              <input type="text" id="inp-product-name" class="text-input" value="Trading Journal Pro" />
+            </div>
+            <div class="form-group">
+              <label>Feature Spotlight</label>
+              <input type="text" id="inp-feature-focus" class="text-input" value="Performance Edge Analytics" />
+            </div>
+            <div class="form-group">
+              <label>Target Duration (Seconds)</label>
+              <input type="number" id="inp-duration-sec" class="text-input" value="30" />
+            </div>
+            <div class="form-group">
+              <label>Soundtrack BPM</label>
+              <input type="number" id="inp-soundtrack-bpm" class="text-input" value="120" />
+            </div>
+          </div>
+          <button id="btn-exec-plan" class="btn btn-primary" style="margin-top: 16px;">Synthesize Production Plan</button>
+          
+          <div class="card" style="margin-top: 24px;">
+            <h3>Director Rationale</h3>
+            <p id="director-rationale-text" class="text-muted" style="margin-top: 8px; line-height: 1.6;">
+              Awaiting plan synthesis...
+            </p>
+          </div>
+        </section>
+
+        <!-- 4. 3D SPATIAL STUDIO TAB -->
+        <section id="tab-spatial-studio" class="tab-panel">
+          <div class="panel-header">
+            <h2>3D Spatial Studio</h2>
+            <p>Interactive configuration of dimensional depth, camera angle, and callout connectors.</p>
+          </div>
+          <div class="split-view">
+            <div class="card">
+              <h3>3D Camera & Depth Parameters</h3>
+              <div class="control-row">
+                <label>Z-Elevation Depth (px)</label>
+                <input type="range" id="ctrl-z-elev" min="0" max="250" value="80" />
+                <span id="lbl-z-elev">80px</span>
+              </div>
+              <div class="control-row">
+                <label>Pitch Angle (deg)</label>
+                <input type="range" id="ctrl-pitch" min="-30" max="30" value="10" />
+                <span id="lbl-pitch">10°</span>
+              </div>
+              <div class="control-row">
+                <label>Yaw Angle (deg)</label>
+                <input type="range" id="ctrl-yaw" min="-30" max="30" value="-12" />
+                <span id="lbl-yaw">-12°</span>
+              </div>
+              <div class="control-row">
+                <label>Camera FOV</label>
+                <input type="range" id="ctrl-fov" min="30" max="75" value="45" />
+                <span id="lbl-fov">45°</span>
+              </div>
+            </div>
+            <div class="card">
+              <h3>Active 3D Feature Callout</h3>
+              <div class="callout-card-mockup">
+                <span class="callout-badge">FEATURE SPOTLIGHT</span>
+                <h4>Edge Metrics</h4>
+                <p>Calculates real-time risk-reward ratios and expectancy curve automatically.</p>
+                <div class="callout-stat">+18.4% Alpha</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 5. TIMELINE TAB -->
+        <section id="tab-timeline" class="tab-panel">
+          <div class="panel-header">
+            <h2>Motion Timeline</h2>
+            <p>Frame-accurate scrubbing, camera keyframe tracks, and cursor choreography.</p>
+          </div>
+          <div class="card timeline-editor">
+            <div class="timeline-controls">
+              <button id="btn-play-pause" class="btn btn-secondary btn-sm">Play</button>
+              <span>Current Frame: <strong id="lbl-scrub-frame">0</strong></span>
+              <input type="range" id="timeline-scrubber" min="0" max="900" value="0" style="flex: 1;" />
+            </div>
+            <div id="timeline-tracks" class="tracks-container">
+              <!-- Rendered dynamically -->
+            </div>
+          </div>
+        </section>
+
+        <!-- 6. QUALITY ASSURANCE TAB -->
+        <section id="tab-qa" class="tab-panel">
+          <div class="panel-header">
+            <h2>Visual Quality Assurance Pipeline</h2>
+            <p>Automated verification against original interface fidelity, text legibility, and camera framing.</p>
+          </div>
+          <div class="qa-grid">
+            <div class="qa-item pass">
+              <div class="qa-icon">✓</div>
+              <div class="qa-details">
+                <strong>Original Interface Fidelity</strong>
+                <span>Pixel-exact MSE & alignment verified. Zero distortion.</span>
+              </div>
+            </div>
+            <div class="qa-item pass">
+              <div class="qa-icon">✓</div>
+              <div class="qa-details">
+                <strong>Layer Alignment & Seams</strong>
+                <span>All cropped subpanels lock flush to coordinate bounds.</span>
+              </div>
+            </div>
+            <div class="qa-item pass">
+              <div class="qa-icon">✓</div>
+              <div class="qa-details">
+                <strong>Text Legibility</strong>
+                <span>All typography satisfies 12px body floor with optimal contrast.</span>
+              </div>
+            </div>
+            <div class="qa-item pass">
+              <div class="qa-icon">✓</div>
+              <div class="qa-details">
+                <strong>Cursor Target Accuracy</strong>
+                <span>Click coordinates strictly hit validated element bounds.</span>
+              </div>
+            </div>
+            <div class="qa-item pass">
+              <div class="qa-icon">✓</div>
+              <div class="qa-details">
+                <strong>Audio & Snare Sync</strong>
+                <span>Transitions lock exactly to nearest kick/snare onsets.</span>
+              </div>
+            </div>
+            <div class="qa-item pass">
+              <div class="qa-icon">✓</div>
+              <div class="qa-details">
+                <strong>Video Container Integrity</strong>
+                <span>H.264 stream and moov atom verified via FFmpeg.</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 7. EXPORT TAB -->
+        <section id="tab-export" class="tab-panel">
+          <div class="panel-header">
+            <h2>Export & Packaging</h2>
+            <p>Package masters, social cutdowns, or an editable project archive.</p>
+          </div>
+          <div class="export-options-grid">
+            <div class="card export-card">
+              <h3>High-Definition Master</h3>
+              <p>1920x1080 MP4, H.264 CRF 18, 30fps. Ideal for YouTube and homepage embeds.</p>
+              <button id="btn-export-hd" class="btn btn-primary">Export 1080p MP4</button>
+            </div>
+            <div class="card export-card">
+              <h3>Vertical Social Reel</h3>
+              <p>1080x1920 MP4 (9:16) with centered spatial focus. Ideal for TikTok and Reels.</p>
+              <button id="btn-export-vertical" class="btn btn-secondary">Export 9:16 Video</button>
+            </div>
+            <div class="card export-card">
+              <h3>Editable Project Bundle</h3>
+              <p>Full ZIP archive with assets, timeline metadata, and reconstruction recipes.</p>
+              <button id="btn-export-bundle" class="btn btn-secondary">Download Project ZIP</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

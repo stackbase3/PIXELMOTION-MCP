@@ -1,0 +1,185 @@
+{
+  "reference_id": "main_ref",
+  "source_path": "/home/spark/pixelmotion/data/test_assets/trading_journal_dashboard.png",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "fidelity_score": 1.0,
+  "preservation_strategy": "cropped_original",
+  "locked_reference_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/locked_reference_trading_journal_dashboard.png",
+  "regions": [
+    {
+      "region_id": "reg_6_panel_section_6",
+      "label": "panel_section_6",
+      "x": 575,
+      "y": 15,
+      "width": 991,
+      "height": 35,
+      "confidence": 0.92,
+      "z_index": 1,
+      "parent_id": null,
+      "is_interactive": true,
+      "crop_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/assets/region_6_panel_section_6.png",
+      "color_profile": {
+        "mean_brightness": 19.0
+      },
+      "text_content": null
+    },
+    {
+      "region_id": "reg_10_metric_kpi_card",
+      "label": "metric_kpi_card",
+      "x": 334,
+      "y": 99,
+      "width": 290,
+      "height": 81,
+      "confidence": 0.92,
+      "z_index": 1,
+      "parent_id": null,
+      "is_interactive": false,
+      "crop_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/assets/region_10_metric_kpi_card.png",
+      "color_profile": {
+        "mean_brightness": 28.548446147296723
+      },
+      "text_content": null
+    },
+    {
+      "region_id": "reg_8_metric_kpi_card",
+      "label": "metric_kpi_card",
+      "x": 712,
+      "y": 99,
+      "width": 322,
+      "height": 81,
+      "confidence": 0.92,
+      "z_index": 1,
+      "parent_id": null,
+      "is_interactive": false,
+      "crop_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/assets/region_8_metric_kpi_card.png",
+      "color_profile": {
+        "mean_brightness": 28.725979602791195
+      },
+      "text_content": null
+    },
+    {
+      "region_id": "reg_7_metric_kpi_card",
+      "label": "metric_kpi_card",
+      "x": 1115,
+      "y": 99,
+      "width": 329,
+      "height": 81,
+      "confidence": 0.92,
+      "z_index": 1,
+      "parent_id": null,
+      "is_interactive": false,
+      "crop_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/assets/region_7_metric_kpi_card.png",
+      "color_profile": {
+        "mean_brightness": 28.96393860932868
+      },
+      "text_content": null
+    },
+    {
+      "region_id": "reg_9_metric_kpi_card",
+      "label": "metric_kpi_card",
+      "x": 1541,
+      "y": 99,
+      "width": 313,
+      "height": 81,
+      "confidence": 0.92,
+      "z_index": 1,
+      "parent_id": null,
+      "is_interactive": false,
+      "crop_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/assets/region_9_metric_kpi_card.png",
+      "color_profile": {
+        "mean_brightness": 28.515520845659292
+      },
+      "text_content": null
+    },
+    {
+      "region_id": "reg_2_main_chart_panel",
+      "label": "main_chart_panel",
+      "x": 259,
+      "y": 229,
+      "width": 1051,
+      "height": 317,
+      "confidence": 0.92,
+      "z_index": 1,
+      "parent_id": null,
+      "is_interactive": true,
+      "crop_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/assets/region_2_main_chart_panel.png",
+      "color_profile": {
+        "mean_brightness": 29.386097662733704
+      },
+      "text_content": null
+    },
+    {
+      "region_id": "reg_4_panel_section_4",
+      "label": "panel_section_4",
+      "x": 1359,
+      "y": 229,
+      "width": 517,
+      "height": 391,
+      "confidence": 0.92,
+      "z_index": 1,
+      "parent_id": null,
+      "is_interactive": true,
+      "crop_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/assets/region_4_panel_section_4.png",
+      "color_profile": {
+        "mean_brightness": 39.16277758265025
+      },
+      "text_content": null
+    },
+    {
+      "region_id": "reg_3_main_chart_panel",
+      "label": "main_chart_panel",
+      "x": 259,
+      "y": 310,
+      "width": 1051,
+      "height": 310,
+      "confidence": 0.92,
+      "z_index": 1,
+      "parent_id": null,
+      "is_interactive": true,
+      "crop_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/assets/region_3_main_chart_panel.png",
+      "color_profile": {
+        "mean_brightness": 28.99198919615727
+      },
+      "text_content": null
+    },
+    {
+      "region_id": "reg_5_panel_section_5",
+      "label": "panel_section_5",
+      "x": 418,
+      "y": 669,
+      "width": 1458,
+      "height": 51,
+      "confidence": 0.92,
+      "z_index": 1,
+      "parent_id": null,
+      "is_interactive": true,
+      "crop_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/assets/region_5_panel_section_5.png",
+      "color_profile": {
+        "mean_brightness": 28.891592027757603
+      },
+      "text_content": null
+    },
+    {
+      "region_id": "reg_1_main_chart_panel",
+      "label": "main_chart_panel",
+      "x": 259,
+      "y": 749,
+      "width": 1617,
+      "height": 281,
+      "confidence": 0.92,
+      "z_index": 1,
+      "parent_id": null,
+      "is_interactive": true,
+      "crop_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/assets/region_1_main_chart_panel.png",
+      "color_profile": {
+        "mean_brightness": 29.452848625700685
+      },
+      "text_content": null
+    }
+  ],
+  "html_markup": "<div class=\"ui-container-main_ref\">\n  <!-- Base Locked Reference Layer -->\n  <div class=\"ui-layer-base\">\n    <img src=\"locked_reference_trading_journal_dashboard.png\" style=\"width: 100%; height: 100%; display: block;\" />\n  </div>\n  <!-- Separated Spatial Presentation Panels -->\n  <div id=\"reg_6_panel_section_6\" class=\"ui-panel-card panel_section_6\" style=\"left: 575px; top: 15px; width: 991px; height: 35px; z-index: 11;\">\n    <img src=\"assets/region_6_panel_section_6.png\" alt=\"panel_section_6\" style=\"width: 100%; height: 100%; display: block; object-fit: fill;\" />\n  </div>\n  <div id=\"reg_10_metric_kpi_card\" class=\"ui-panel-card metric_kpi_card\" style=\"left: 334px; top: 99px; width: 290px; height: 81px; z-index: 11;\">\n    <img src=\"assets/region_10_metric_kpi_card.png\" alt=\"metric_kpi_card\" style=\"width: 100%; height: 100%; display: block; object-fit: fill;\" />\n  </div>\n  <div id=\"reg_8_metric_kpi_card\" class=\"ui-panel-card metric_kpi_card\" style=\"left: 712px; top: 99px; width: 322px; height: 81px; z-index: 11;\">\n    <img src=\"assets/region_8_metric_kpi_card.png\" alt=\"metric_kpi_card\" style=\"width: 100%; height: 100%; display: block; object-fit: fill;\" />\n  </div>\n  <div id=\"reg_7_metric_kpi_card\" class=\"ui-panel-card metric_kpi_card\" style=\"left: 1115px; top: 99px; width: 329px; height: 81px; z-index: 11;\">\n    <img src=\"assets/region_7_metric_kpi_card.png\" alt=\"metric_kpi_card\" style=\"width: 100%; height: 100%; display: block; object-fit: fill;\" />\n  </div>\n  <div id=\"reg_9_metric_kpi_card\" class=\"ui-panel-card metric_kpi_card\" style=\"left: 1541px; top: 99px; width: 313px; height: 81px; z-index: 11;\">\n    <img src=\"assets/region_9_metric_kpi_card.png\" alt=\"metric_kpi_card\" style=\"width: 100%; height: 100%; display: block; object-fit: fill;\" />\n  </div>\n  <div id=\"reg_2_main_chart_panel\" class=\"ui-panel-card main_chart_panel\" style=\"left: 259px; top: 229px; width: 1051px; height: 317px; z-index: 11;\">\n    <img src=\"assets/region_2_main_chart_panel.png\" alt=\"main_chart_panel\" style=\"width: 100%; height: 100%; display: block; object-fit: fill;\" />\n  </div>\n  <div id=\"reg_4_panel_section_4\" class=\"ui-panel-card panel_section_4\" style=\"left: 1359px; top: 229px; width: 517px; height: 391px; z-index: 11;\">\n    <img src=\"assets/region_4_panel_section_4.png\" alt=\"panel_section_4\" style=\"width: 100%; height: 100%; display: block; object-fit: fill;\" />\n  </div>\n  <div id=\"reg_3_main_chart_panel\" class=\"ui-panel-card main_chart_panel\" style=\"left: 259px; top: 310px; width: 1051px; height: 310px; z-index: 11;\">\n    <img src=\"assets/region_3_main_chart_panel.png\" alt=\"main_chart_panel\" style=\"width: 100%; height: 100%; display: block; object-fit: fill;\" />\n  </div>\n  <div id=\"reg_5_panel_section_5\" class=\"ui-panel-card panel_section_5\" style=\"left: 418px; top: 669px; width: 1458px; height: 51px; z-index: 11;\">\n    <img src=\"assets/region_5_panel_section_5.png\" alt=\"panel_section_5\" style=\"width: 100%; height: 100%; display: block; object-fit: fill;\" />\n  </div>\n  <div id=\"reg_1_main_chart_panel\" class=\"ui-panel-card main_chart_panel\" style=\"left: 259px; top: 749px; width: 1617px; height: 281px; z-index: 11;\">\n    <img src=\"assets/region_1_main_chart_panel.png\" alt=\"main_chart_panel\" style=\"width: 100%; height: 100%; display: block; object-fit: fill;\" />\n  </div>\n</div>",
+  "css_styles": ".ui-container-main_ref {\n  position: relative;\n  width: 1920px;\n  height: 1080px;\n  overflow: hidden;\n  background: #0B0E14;\n  font-family: 'Inter', -apple-system, sans-serif;\n}\n.ui-layer-base {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 1;\n}\n.ui-panel-card {\n  position: absolute;\n  box-sizing: border-box;\n  transition: transform 0.2s cubic-bezier(0.2, 0.9, 0.1, 1);\n}"
+}

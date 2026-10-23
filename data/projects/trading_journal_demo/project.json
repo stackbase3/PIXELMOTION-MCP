@@ -1,0 +1,1021 @@
+{
+  "project_id": "trading_journal_demo",
+  "name": "EdgeFlow Trading Journal",
+  "aspect_ratio": "16:9",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "created_at": "2026-10-23T04:30:57Z",
+  "updated_at": "2026-10-23T04:45:07Z",
+  "references": [],
+  "reconstructions": {
+    "main_ref": {
+      "reference_id": "main_ref",
+      "source_path": "/home/spark/pixelmotion/data/test_assets/trading_journal_dashboard.png",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fidelity_score": 1.0,
+      "preservation_strategy": "cropped_original",
+      "locked_reference_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/locked_reference_trading_journal_dashboard.png",
+      "regions": [
+        {
+          "region_id": "reg_6_panel_section_6",
+          "label": "panel_section_6",
+          "x": 575,
+          "y": 15,
+          "width": 991,
+          "height": 35,
+          "confidence": 0.92,
+          "z_index": 1,
+          "parent_id": null,
+          "is_interactive": true,
+          "crop_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/assets/region_6_panel_section_6.png",
+          "color_profile": {
+            "mean_brightness": 19.0
+          },
+          "text_content": null
+        },
+        {
+          "region_id": "reg_10_metric_kpi_card",
+          "label": "metric_kpi_card",
+          "x": 334,
+          "y": 99,
+          "width": 290,
+          "height": 81,
+          "confidence": 0.92,
+          "z_index": 1,
+          "parent_id": null,
+          "is_interactive": false,
+          "crop_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/assets/region_10_metric_kpi_card.png",
+          "color_profile": {
+            "mean_brightness": 28.548446147296723
+          },
+          "text_content": null
+        },
+        {
+          "region_id": "reg_8_metric_kpi_card",
+          "label": "metric_kpi_card",
+          "x": 712,
+          "y": 99,
+          "width": 322,
+          "height": 81,
+          "confidence": 0.92,
+          "z_index": 1,
+          "parent_id": null,
+          "is_interactive": false,
+          "crop_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/assets/region_8_metric_kpi_card.png",
+          "color_profile": {
+            "mean_brightness": 28.725979602791195
+          },
+          "text_content": null
+        },
+        {
+          "region_id": "reg_7_metric_kpi_card",
+          "label": "metric_kpi_card",
+          "x": 1115,
+          "y": 99,
+          "width": 329,
+          "height": 81,
+          "confidence": 0.92,
+          "z_index": 1,
+          "parent_id": null,
+          "is_interactive": false,
+          "crop_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/assets/region_7_metric_kpi_card.png",
+          "color_profile": {
+            "mean_brightness": 28.96393860932868
+          },
+          "text_content": null
+        },
+        {
+          "region_id": "reg_9_metric_kpi_card",
+          "label": "metric_kpi_card",
+          "x": 1541,
+          "y": 99,
+          "width": 313,
+          "height": 81,
+          "confidence": 0.92,
+          "z_index": 1,
+          "parent_id": null,
+          "is_interactive": false,
+          "crop_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/assets/region_9_metric_kpi_card.png",
+          "color_profile": {
+            "mean_brightness": 28.515520845659292
+          },
+          "text_content": null
+        },
+        {
+          "region_id": "reg_2_main_chart_panel",
+          "label": "main_chart_panel",
+          "x": 259,
+          "y": 229,
+          "width": 1051,
+          "height": 317,
+          "confidence": 0.92,
+          "z_index": 1,
+          "parent_id": null,
+          "is_interactive": true,
+          "crop_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/assets/region_2_main_chart_panel.png",
+          "color_profile": {
+            "mean_brightness": 29.386097662733704
+          },
+          "text_content": null
+        },
+        {
+          "region_id": "reg_4_panel_section_4",
+          "label": "panel_section_4",
+          "x": 1359,
+          "y": 229,
+          "width": 517,
+          "height": 391,
+          "confidence": 0.92,
+          "z_index": 1,
+          "parent_id": null,
+          "is_interactive": true,
+          "crop_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/assets/region_4_panel_section_4.png",
+          "color_profile": {
+            "mean_brightness": 39.16277758265025
+          },
+          "text_content": null
+        },
+        {
+          "region_id": "reg_3_main_chart_panel",
+          "label": "main_chart_panel",
+          "x": 259,
+          "y": 310,
+          "width": 1051,
+          "height": 310,
+          "confidence": 0.92,
+          "z_index": 1,
+          "parent_id": null,
+          "is_interactive": true,
+          "crop_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/assets/region_3_main_chart_panel.png",
+          "color_profile": {
+            "mean_brightness": 28.99198919615727
+          },
+          "text_content": null
+        },
+        {
+          "region_id": "reg_5_panel_section_5",
+          "label": "panel_section_5",
+          "x": 418,
+          "y": 669,
+          "width": 1458,
+          "height": 51,
+          "confidence": 0.92,
+          "z_index": 1,
+          "parent_id": null,
+          "is_interactive": true,
+          "crop_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/assets/region_5_panel_section_5.png",
+          "color_profile": {
+            "mean_brightness": 28.891592027757603
+          },
+          "text_content": null
+        },
+        {
+          "region_id": "reg_1_main_chart_panel",
+          "label": "main_chart_panel",
+          "x": 259,
+          "y": 749,
+          "width": 1617,
+          "height": 281,
+          "confidence": 0.92,
+          "z_index": 1,
+          "parent_id": null,
+          "is_interactive": true,
+          "crop_path": "/home/spark/pixelmotion/data/projects/trading_journal_demo/reconstructions/main_ref/assets/region_1_main_chart_panel.png",
+          "color_profile": {
+            "mean_brightness": 29.452848625700685
+          },
+          "text_content": null
+        }
+      ],
+      "html_markup": "<div class=\"ui-container-main_ref\">\n  <!-- Base Locked Reference Layer -->\n  <div class=\"ui-layer-base\">\n    <img src=\"locked_reference_trading_journal_dashboard.png\" style=\"width: 100%; height: 100%; display: block;\" />\n  </div>\n  <!-- Separated Spatial Presentation Panels -->\n  <div id=\"reg_6_panel_section_6\" class=\"ui-panel-card panel_section_6\" style=\"left: 575px; top: 15px; width: 991px; height: 35px; z-index: 11;\">\n    <img src=\"assets/region_6_panel_section_6.png\" alt=\"panel_section_6\" style=\"width: 100%; height: 100%; display: block; object-fit: fill;\" />\n  </div>\n  <div id=\"reg_10_metric_kpi_card\" class=\"ui-panel-card metric_kpi_card\" style=\"left: 334px; top: 99px; width: 290px; height: 81px; z-index: 11;\">\n    <img src=\"assets/region_10_metric_kpi_card.png\" alt=\"metric_kpi_card\" style=\"width: 100%; height: 100%; display: block; object-fit: fill;\" />\n  </div>\n  <div id=\"reg_8_metric_kpi_card\" class=\"ui-panel-card metric_kpi_card\" style=\"left: 712px; top: 99px; width: 322px; height: 81px; z-index: 11;\">\n    <img src=\"assets/region_8_metric_kpi_card.png\" alt=\"metric_kpi_card\" style=\"width: 100%; height: 100%; display: block; object-fit: fill;\" />\n  </div>\n  <div id=\"reg_7_metric_kpi_card\" class=\"ui-panel-card metric_kpi_card\" style=\"left: 1115px; top: 99px; width: 329px; height: 81px; z-index: 11;\">\n    <img src=\"assets/region_7_metric_kpi_card.png\" alt=\"metric_kpi_card\" style=\"width: 100%; height: 100%; display: block; object-fit: fill;\" />\n  </div>\n  <div id=\"reg_9_metric_kpi_card\" class=\"ui-panel-card metric_kpi_card\" style=\"left: 1541px; top: 99px; width: 313px; height: 81px; z-index: 11;\">\n    <img src=\"assets/region_9_metric_kpi_card.png\" alt=\"metric_kpi_card\" style=\"width: 100%; height: 100%; display: block; object-fit: fill;\" />\n  </div>\n  <div id=\"reg_2_main_chart_panel\" class=\"ui-panel-card main_chart_panel\" style=\"left: 259px; top: 229px; width: 1051px; height: 317px; z-index: 11;\">\n    <img src=\"assets/region_2_main_chart_panel.png\" alt=\"main_chart_panel\" style=\"width: 100%; height: 100%; display: block; object-fit: fill;\" />\n  </div>\n  <div id=\"reg_4_panel_section_4\" class=\"ui-panel-card panel_section_4\" style=\"left: 1359px; top: 229px; width: 517px; height: 391px; z-index: 11;\">\n    <img src=\"assets/region_4_panel_section_4.png\" alt=\"panel_section_4\" style=\"width: 100%; height: 100%; display: block; object-fit: fill;\" />\n  </div>\n  <div id=\"reg_3_main_chart_panel\" class=\"ui-panel-card main_chart_panel\" style=\"left: 259px; top: 310px; width: 1051px; height: 310px; z-index: 11;\">\n    <img src=\"assets/region_3_main_chart_panel.png\" alt=\"main_chart_panel\" style=\"width: 100%; height: 100%; display: block; object-fit: fill;\" />\n  </div>\n  <div id=\"reg_5_panel_section_5\" class=\"ui-panel-card panel_section_5\" style=\"left: 418px; top: 669px; width: 1458px; height: 51px; z-index: 11;\">\n    <img src=\"assets/region_5_panel_section_5.png\" alt=\"panel_section_5\" style=\"width: 100%; height: 100%; display: block; object-fit: fill;\" />\n  </div>\n  <div id=\"reg_1_main_chart_panel\" class=\"ui-panel-card main_chart_panel\" style=\"left: 259px; top: 749px; width: 1617px; height: 281px; z-index: 11;\">\n    <img src=\"assets/region_1_main_chart_panel.png\" alt=\"main_chart_panel\" style=\"width: 100%; height: 100%; display: block; object-fit: fill;\" />\n  </div>\n</div>",
+      "css_styles": ".ui-container-main_ref {\n  position: relative;\n  width: 1920px;\n  height: 1080px;\n  overflow: hidden;\n  background: #0B0E14;\n  font-family: 'Inter', -apple-system, sans-serif;\n}\n.ui-layer-base {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 1;\n}\n.ui-panel-card {\n  position: absolute;\n  box-sizing: border-box;\n  transition: transform 0.2s cubic-bezier(0.2, 0.9, 0.1, 1);\n}"
+    }
+  },
+  "motion_plan": {
+    "plan_id": "plan_322420b1",
+    "project_id": "trading_journal_demo",
+    "title": "EdgeFlow - Equity Curve & Alpha Breakdown Film",
+    "target_duration_frames": 900,
+    "fps": 30,
+    "bpm": 117.5,
+    "scenes": [
+      {
+        "scene_id": "scene_01_cinematic_opener",
+        "duration_frames": 120,
+        "fps": 30,
+        "composition": "cinematic_opener",
+        "reference_id": "main_ref",
+        "narrative_beat": "hook",
+        "scene_objective": "Establish premium product identity for EdgeFlow",
+        "ui_layers": [],
+        "camera": {
+          "keyframes": [
+            {
+              "frame": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 300.0,
+              "pitch": 14.0,
+              "yaw": -16.0,
+              "roll": 0.0,
+              "fov": 45.0,
+              "easing": "slowInLand"
+            },
+            {
+              "frame": 120,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 140.0,
+              "pitch": 8.0,
+              "yaw": -6.0,
+              "roll": 0.0,
+              "fov": 45.0,
+              "easing": "soft"
+            }
+          ],
+          "target": null,
+          "motion_type": "dolly_in"
+        },
+        "cursor_events": [],
+        "motion_events": [],
+        "three_d_objects": [],
+        "overlays": [
+          {
+            "type": "title",
+            "text": "EdgeFlow",
+            "x": 960.0,
+            "y": 480.0,
+            "start_frame": 15,
+            "duration_frames": 100,
+            "style": {
+              "font_size": 48,
+              "font_weight": 700,
+              "color": "#FFFFFF",
+              "letter_spacing": "-0.02em"
+            }
+          },
+          {
+            "type": "subtitle",
+            "text": "Next-Generation Equity Curve & Alpha Breakdown",
+            "x": 960.0,
+            "y": 550.0,
+            "start_frame": 30,
+            "duration_frames": 85,
+            "style": {
+              "font_size": 22,
+              "font_weight": 400,
+              "color": "#38BDF8"
+            }
+          }
+        ],
+        "audio_events": [
+          {
+            "frame": 0,
+            "type": "kick",
+            "name": "impact_kick",
+            "duration_frames": 12
+          },
+          {
+            "frame": 60,
+            "type": "snare",
+            "name": "phrase_snare",
+            "duration_frames": 8
+          }
+        ],
+        "transition": {
+          "type": "spatial_panel_separation",
+          "duration_frames": 24,
+          "direction": "left-to-right",
+          "easing": "violentPush",
+          "params": {}
+        }
+      },
+      {
+        "scene_id": "scene_02_dimensional_reveal",
+        "duration_frames": 150,
+        "fps": 30,
+        "composition": "dimensional_reveal",
+        "reference_id": "main_ref",
+        "narrative_beat": "interface_emergence",
+        "scene_objective": "Present the complete interface architecture as layered spatial tiers",
+        "ui_layers": [],
+        "camera": {
+          "keyframes": [
+            {
+              "frame": 0,
+              "x": -40.0,
+              "y": 20.0,
+              "z": 120.0,
+              "pitch": 12.0,
+              "yaw": -14.0,
+              "roll": 0.0,
+              "fov": 46.0,
+              "easing": "slowInLand"
+            },
+            {
+              "frame": 150,
+              "x": 20.0,
+              "y": -10.0,
+              "z": 60.0,
+              "pitch": 6.0,
+              "yaw": -4.0,
+              "roll": 0.0,
+              "fov": 44.0,
+              "easing": "soft"
+            }
+          ],
+          "target": null,
+          "motion_type": "orbit"
+        },
+        "cursor_events": [],
+        "motion_events": [],
+        "three_d_objects": [
+          {
+            "id": "panel_reg_6_panel_section_6",
+            "type": "panel",
+            "transform": {
+              "x": -385.0,
+              "y": -525.0,
+              "z": 0.0,
+              "rotate_x": 0.0,
+              "rotate_y": 0.0,
+              "rotate_z": 0.0,
+              "scale": 1.0
+            },
+            "target_region_id": "reg_6_panel_section_6",
+            "material": "glass_slate",
+            "opacity": 1.0,
+            "color": null,
+            "border_radius": 8.0,
+            "depth_extrusion": 30.0,
+            "properties": {}
+          },
+          {
+            "id": "panel_reg_10_metric_kpi_card",
+            "type": "panel",
+            "transform": {
+              "x": -626.0,
+              "y": -441.0,
+              "z": 25.0,
+              "rotate_x": 0.0,
+              "rotate_y": 0.0,
+              "rotate_z": 0.0,
+              "scale": 1.0
+            },
+            "target_region_id": "reg_10_metric_kpi_card",
+            "material": "glass_slate",
+            "opacity": 1.0,
+            "color": null,
+            "border_radius": 8.0,
+            "depth_extrusion": 45.0,
+            "properties": {}
+          },
+          {
+            "id": "panel_reg_8_metric_kpi_card",
+            "type": "panel",
+            "transform": {
+              "x": -248.0,
+              "y": -441.0,
+              "z": 50.0,
+              "rotate_x": 0.0,
+              "rotate_y": 0.0,
+              "rotate_z": 0.0,
+              "scale": 1.0
+            },
+            "target_region_id": "reg_8_metric_kpi_card",
+            "material": "glass_slate",
+            "opacity": 1.0,
+            "color": null,
+            "border_radius": 8.0,
+            "depth_extrusion": 60.0,
+            "properties": {}
+          },
+          {
+            "id": "panel_reg_7_metric_kpi_card",
+            "type": "panel",
+            "transform": {
+              "x": 155.0,
+              "y": -441.0,
+              "z": 75.0,
+              "rotate_x": 0.0,
+              "rotate_y": 0.0,
+              "rotate_z": 0.0,
+              "scale": 1.0
+            },
+            "target_region_id": "reg_7_metric_kpi_card",
+            "material": "glass_slate",
+            "opacity": 1.0,
+            "color": null,
+            "border_radius": 8.0,
+            "depth_extrusion": 75.0,
+            "properties": {}
+          }
+        ],
+        "overlays": [],
+        "audio_events": [
+          {
+            "frame": 0,
+            "type": "snare",
+            "name": "layer_split_snare",
+            "duration_frames": 10
+          }
+        ],
+        "transition": {
+          "type": "depth_based_reveal",
+          "duration_frames": 20,
+          "direction": "left-to-right",
+          "easing": "slowInLand",
+          "params": {}
+        }
+      },
+      {
+        "scene_id": "scene_03_feature_spotlight",
+        "duration_frames": 150,
+        "fps": 30,
+        "composition": "spatial_feature_spotlight",
+        "reference_id": "main_ref",
+        "narrative_beat": "feature_spotlight",
+        "scene_objective": "Spotlight Equity Curve & Alpha Breakdown with elevated dimensional focus and callouts",
+        "ui_layers": [],
+        "camera": {
+          "keyframes": [
+            {
+              "frame": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 80.0,
+              "pitch": 8.0,
+              "yaw": -6.0,
+              "roll": 0.0,
+              "fov": 45.0,
+              "easing": "slowInLand"
+            },
+            {
+              "frame": 60,
+              "x": -481.0,
+              "y": -400.5,
+              "z": -30.0,
+              "pitch": 3.0,
+              "yaw": -2.0,
+              "roll": 0.0,
+              "fov": 42.0,
+              "easing": "standard"
+            },
+            {
+              "frame": 150,
+              "x": -481.0,
+              "y": -400.5,
+              "z": -40.0,
+              "pitch": 1.0,
+              "yaw": 0.0,
+              "roll": 0.0,
+              "fov": 40.0,
+              "easing": "soft"
+            }
+          ],
+          "target": null,
+          "motion_type": "spatial_tracking"
+        },
+        "cursor_events": [],
+        "motion_events": [],
+        "three_d_objects": [
+          {
+            "id": "spotlight_card",
+            "type": "card",
+            "transform": {
+              "x": 334.0,
+              "y": 99.0,
+              "z": 90.0,
+              "rotate_x": 0.0,
+              "rotate_y": 0.0,
+              "rotate_z": 0.0,
+              "scale": 1.04
+            },
+            "target_region_id": null,
+            "material": "matte_highlight",
+            "opacity": 1.0,
+            "color": null,
+            "border_radius": 8.0,
+            "depth_extrusion": 50.0,
+            "properties": {}
+          },
+          {
+            "id": "spotlight_callout",
+            "type": "callout",
+            "transform": {
+              "x": 654.0,
+              "y": 139.0,
+              "z": 140.0,
+              "rotate_x": 0.0,
+              "rotate_y": 0.0,
+              "rotate_z": 0.0,
+              "scale": 1.0
+            },
+            "target_region_id": null,
+            "material": "matte_glass",
+            "opacity": 1.0,
+            "color": null,
+            "border_radius": 8.0,
+            "depth_extrusion": 4.0,
+            "properties": {
+              "category": "Live Performance",
+              "title": "Edge Metrics",
+              "description": "Calculates real-time risk-reward ratios and expectancy curve automatically.",
+              "badge": "+18.4% Alpha"
+            }
+          }
+        ],
+        "overlays": [],
+        "audio_events": [
+          {
+            "frame": 20,
+            "type": "kick",
+            "name": "card_elevate_kick",
+            "duration_frames": 8
+          },
+          {
+            "frame": 60,
+            "type": "snare",
+            "name": "callout_pop_snare",
+            "duration_frames": 8
+          }
+        ],
+        "transition": {
+          "type": "perspective_to_flat",
+          "duration_frames": 28,
+          "direction": "left-to-right",
+          "easing": "slowInLand",
+          "params": {}
+        }
+      },
+      {
+        "scene_id": "scene_04_interface_walkthrough",
+        "duration_frames": 240,
+        "fps": 30,
+        "composition": "flat_walkthrough",
+        "reference_id": "main_ref",
+        "narrative_beat": "workflow_walkthrough",
+        "scene_objective": "Smoothly transition into the pristine 2D interface and execute verified button interaction",
+        "ui_layers": [],
+        "camera": {
+          "keyframes": [
+            {
+              "frame": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": 0.0,
+              "fov": 45.0,
+              "easing": "standard"
+            },
+            {
+              "frame": 240,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": 0.0,
+              "fov": 45.0,
+              "easing": "standard"
+            }
+          ],
+          "target": null,
+          "motion_type": "static"
+        },
+        "cursor_events": [
+          {
+            "frame": 15,
+            "x": 1960.0,
+            "y": 1120.0,
+            "scale": 1.0,
+            "action": "move",
+            "target_region_id": null,
+            "click_duration": 14,
+            "text": null
+          },
+          {
+            "frame": 70,
+            "x": 1070.5,
+            "y": 32.5,
+            "scale": 1.0,
+            "action": "hover",
+            "target_region_id": "reg_6_panel_section_6",
+            "click_duration": 14,
+            "text": null
+          },
+          {
+            "frame": 90,
+            "x": 1070.5,
+            "y": 32.5,
+            "scale": 0.92,
+            "action": "click",
+            "target_region_id": null,
+            "click_duration": 14,
+            "text": null
+          },
+          {
+            "frame": 104,
+            "x": 1070.5,
+            "y": 32.5,
+            "scale": 1.0,
+            "action": "move",
+            "target_region_id": null,
+            "click_duration": 14,
+            "text": null
+          },
+          {
+            "frame": 160,
+            "x": 1250.5,
+            "y": 152.5,
+            "scale": 1.0,
+            "action": "move",
+            "target_region_id": null,
+            "click_duration": 14,
+            "text": null
+          }
+        ],
+        "motion_events": [],
+        "three_d_objects": [],
+        "overlays": [
+          {
+            "type": "typing",
+            "text": "Filter applied: Win-Rate > 65%",
+            "x": 1070.5,
+            "y": -15.5,
+            "start_frame": 100,
+            "duration_frames": 100,
+            "style": {
+              "font_size": 15,
+              "color": "#10B981",
+              "background": "rgba(16, 185, 129, 0.15)"
+            }
+          }
+        ],
+        "audio_events": [
+          {
+            "frame": 90,
+            "type": "sfx",
+            "name": "ui_click_subtle",
+            "duration_frames": 6
+          },
+          {
+            "frame": 104,
+            "type": "snare",
+            "name": "state_change_snare",
+            "duration_frames": 8
+          }
+        ],
+        "transition": {
+          "type": "camera_through_interface",
+          "duration_frames": 24,
+          "direction": "left-to-right",
+          "easing": "violentPush",
+          "params": {}
+        }
+      },
+      {
+        "scene_id": "scene_05_data_proof",
+        "duration_frames": 120,
+        "fps": 30,
+        "composition": "animated_data_viz",
+        "reference_id": "main_ref",
+        "narrative_beat": "quantitative_proof",
+        "scene_objective": "Highlight high-impact metric outcome with animated counter overshoot",
+        "ui_layers": [],
+        "camera": {
+          "keyframes": [
+            {
+              "frame": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 100.0,
+              "pitch": 4.0,
+              "yaw": 0.0,
+              "roll": 0.0,
+              "fov": 45.0,
+              "easing": "slowInLand"
+            },
+            {
+              "frame": 120,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 20.0,
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": 0.0,
+              "fov": 45.0,
+              "easing": "soft"
+            }
+          ],
+          "target": null,
+          "motion_type": "dolly_in"
+        },
+        "cursor_events": [],
+        "motion_events": [],
+        "three_d_objects": [],
+        "overlays": [
+          {
+            "type": "counter",
+            "text": "Sharpe Ratio: 2.84",
+            "x": 960.0,
+            "y": 520.0,
+            "start_frame": 15,
+            "duration_frames": 95,
+            "style": {
+              "font_size": 56,
+              "font_weight": 800,
+              "color": "#38BDF8"
+            }
+          },
+          {
+            "type": "badge",
+            "text": "Automated Trade Journaling",
+            "x": 960.0,
+            "y": 440.0,
+            "start_frame": 10,
+            "duration_frames": 100,
+            "style": {
+              "font_size": 16,
+              "color": "#94A3B8"
+            }
+          }
+        ],
+        "audio_events": [
+          {
+            "frame": 0,
+            "type": "kick",
+            "name": "counter_start_kick",
+            "duration_frames": 8
+          },
+          {
+            "frame": 84,
+            "type": "snare",
+            "name": "counter_settle_snare",
+            "duration_frames": 8
+          }
+        ],
+        "transition": {
+          "type": "dimensional_collapse",
+          "duration_frames": 20,
+          "direction": "left-to-right",
+          "easing": "slowInLand",
+          "params": {}
+        }
+      },
+      {
+        "scene_id": "scene_06_closing_scene",
+        "duration_frames": 120,
+        "fps": 30,
+        "composition": "closing_product_presentation",
+        "reference_id": "main_ref",
+        "narrative_beat": "call_to_action",
+        "scene_objective": "Deliver memorable closing product presentation and call to action for EdgeFlow",
+        "ui_layers": [],
+        "camera": {
+          "keyframes": [
+            {
+              "frame": 0,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": 0.0,
+              "fov": 45.0,
+              "easing": "standard"
+            },
+            {
+              "frame": 120,
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": 0.0,
+              "fov": 45.0,
+              "easing": "standard"
+            }
+          ],
+          "target": null,
+          "motion_type": "static"
+        },
+        "cursor_events": [],
+        "motion_events": [],
+        "three_d_objects": [],
+        "overlays": [
+          {
+            "type": "title",
+            "text": "Experience EdgeFlow",
+            "x": 960.0,
+            "y": 460.0,
+            "start_frame": 15,
+            "duration_frames": 100,
+            "style": {
+              "font_size": 52,
+              "font_weight": 800,
+              "color": "#FFFFFF"
+            }
+          },
+          {
+            "type": "subtitle",
+            "text": "Start Journaling Free at YourDomain.com",
+            "x": 960.0,
+            "y": 540.0,
+            "start_frame": 30,
+            "duration_frames": 85,
+            "style": {
+              "font_size": 20,
+              "font_weight": 500,
+              "color": "#38BDF8"
+            }
+          }
+        ],
+        "audio_events": [
+          {
+            "frame": 15,
+            "type": "snare",
+            "name": "finale_snare",
+            "duration_frames": 12
+          }
+        ],
+        "transition": null
+      }
+    ],
+    "visual_direction": {
+      "camera_language": "cinematic_restrained",
+      "scene_pacing": "snare_locked_118bpm",
+      "transition_style": "spatial_perspective_shift",
+      "typography": "clean_sans",
+      "composition": "golden_ratio_depth",
+      "depth_level": 0.65,
+      "lighting": "soft_studio_directional",
+      "motion_intensity": 0.7,
+      "interface_treatment": "crisp_pixel_perfect",
+      "primary_accent": "#38BDF8",
+      "palette": [
+        "#0B0E14",
+        "#161C2A",
+        "#38BDF8",
+        "#10B981",
+        "#6366F1"
+      ],
+      "font_stack": "Inter, -apple-system, BlinkMacSystemFont, sans-serif"
+    },
+    "director_rationale": "Art-directed motion sequence balances dimensional visual storytelling with interface fidelity. Begins with an elegant 3D spatial reveal to establish scale, moves into a 3D spotlight to isolate 'Equity Curve & Alpha Breakdown', then smoothly collapses perspective into a pixel-perfect 2D walkthrough with natural cursor click mechanics, concluding with data proof and an impactful closing brand mark."
+  },
+  "audio_path": "/home/spark/pixelmotion/data/test_assets/soundtrack_120bpm.mp3",
+  "beats_data": {
+    "bpm": 117.5,
+    "fps": 30,
+    "frames_per_beat": 15,
+    "first_kick_frame": 29,
+    "duration_seconds": 30.0,
+    "total_frames": 900,
+    "snare_frames": [
+      15,
+      45,
+      75,
+      104,
+      134,
+      164,
+      224,
+      284,
+      314,
+      375,
+      435,
+      465,
+      495,
+      525,
+      554,
+      584,
+      614,
+      644,
+      674,
+      704,
+      765,
+      825,
+      855,
+      885
+    ],
+    "kick_frames": [
+      29,
+      60,
+      90,
+      120,
+      150,
+      180,
+      194,
+      210,
+      240,
+      254,
+      270,
+      300,
+      329,
+      344,
+      359,
+      389,
+      405,
+      419,
+      450,
+      480,
+      510,
+      540,
+      570,
+      600,
+      630,
+      660,
+      690,
+      720,
+      734,
+      750,
+      779,
+      794,
+      809,
+      839,
+      869
+    ],
+    "beat_frames": [
+      15,
+      29,
+      45,
+      60,
+      75,
+      90,
+      104,
+      120,
+      134,
+      150,
+      164,
+      180,
+      194,
+      210,
+      224,
+      240,
+      254,
+      270,
+      284,
+      300,
+      314,
+      329,
+      344,
+      359,
+      375,
+      389,
+      405,
+      419,
+      435,
+      450,
+      465,
+      480,
+      495,
+      510,
+      525,
+      540,
+      554,
+      570,
+      584,
+      600,
+      614,
+      630,
+      644,
+      660,
+      674,
+      690,
+      704,
+      720,
+      734,
+      750,
+      765,
+      779,
+      794,
+      809,
+      825,
+      839,
+      855,
+      869,
+      885
+    ],
+    "recommended_scene_boundaries": [
+      0,
+      29,
+      149,
+      269,
+      389,
+      509,
+      629,
+      749,
+      869,
+      900
+    ],
+    "warnings": []
+  },
+  "render_jobs": [],
+  "qa_reports": []
+}
